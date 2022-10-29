@@ -1,182 +1,190 @@
+:root {
+  --title-color: #212121;
+  --text-color: #757575;
+  --link-color: #2196f3;
+  --additional-color: #ffffff;
+}
+
 body {
-    font-family: 'Roboto', 'Raleway', sans-serif;
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: var(--title-color);
 }
 
 .link {
-    text-decoration: none;
-    }
+  text-decoration: none;
+}
 
-.link:hover, .link:focus {
-    color: #2196F3;
+.link:hover,
+.link:focus {
+  color: var(--link-color);
 }
 
 .list {
-    list-style: none;
-    }
+  list-style: none;
+}
 /*-------------------- HEADER ------------------------)*/
 
-.header-logo, .footer-logo {
-font-family: 'Raleway';
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-color: #000000;
+.header-logo,
+.footer-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
 }
 
-.header-logo:hover, .header-logo:focus,
-.footer-logo:hover , ..footer-logo:focus{
-color: #000000;  
+.header-logo:hover,
+.header-logo:focus,
+.footer-logo:hover,
+.footer-logo:focus {
+  color: #000000;
 }
-.header-logo-span, .footer-logo-span {
-color: #2196F3;
+.header-logo-span,
+.footer-logo-span {
+  color: var(--link-color);
 }
 
 .header-nav-link {
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
 }
 .contact-list-link {
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
 }
-
-
 /*------------------------HERO Page 1------------------------*/
 .hero {
-    background-image: url(../images/Bg.jpg);
+  background-image: url(../images/Bg.jpg);
 }
 
 .hero-title {
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-color: #FFFFFF;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--additional-color);
 }
 
 .hero-btn {
-font-weight: 700;
-font-size: 16px;
-line-height: 1.88;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-color: #FFFFFF;
-background-color: #2196F3;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--additional-color);
+  background-color: var(--link-color);
+  cursor: pointer;
 }
-
-.hero-btn:hover, .hero-btn:focus {
-
+/* изменение цвета кнопки при ховере и фокусе нужно уточнить*/
+.hero-btn:hover,
+.hero-btn:focus {
+  color: var(--link-color);
 }
 
 /*------------------------ACTIVITY------------------------*/
 
 .about-title {
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #212121;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .about-text {
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: #757575;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
 }
 
-.activity-title, .team-title {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.17;
-text-align: center;
-letter-spacing: 0.03em;
-color: #212121;
+.activity-title,
+.team-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
-
 
 /*------------------------TEAM------------------------*/
 
-
 .team-names {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.19;
-text-align: center;
-letter-spacing: 0.03em;
-color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .team-position {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.19;
-text-align: center;
-letter-spacing: 0.03em;
-color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
 }
-
 
 /* -----------------------PAGE PORTFOLIO -----------------------*/
- 
-.portfolio-uptitle {
+
+.portfolio-selection-btn {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
 }
-.portfolio-list {
+.portfolio-selection-btn:hover,
+.portfolio-selection-btn:focus {
+  color: var(--additional-color);
 }
-.portfolio-selection {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.62x;
-text-align: center;
-letter-spacing: 0.03em;
-color: #212121;
-}
-.portfolio-images {
-}
-.portfolio-link {
-}
+
 .portfolio-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 .portfolio-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
 }
 
 /*------------------------FOOTER------------------------*/
 
-/* background-image из футера будет удален, добавлен, что виден был текст*/
 .footer {
-    background-image: url(../images/Bg.jpg);
+  background-color: #2f303a;
 }
-.footer-contact {
-}
-.footer-address-list {
-}
+
 .footer-address-link {
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71px;
-letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 
-color: #FFFFFF;
+  color: var(--additional-color);
 }
-.footer-contact-list, .footer-contact-link {
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71x;
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
+.footer-contact-list,
+.footer-contact-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
-
-
