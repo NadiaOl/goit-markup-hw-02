@@ -2,3 +2,181 @@ body {
     font-family: 'Roboto', 'Raleway', sans-serif;
 }
 
+.link {
+    text-decoration: none;
+    }
+
+.link:hover, .link:focus {
+    color: #2196F3;
+}
+
+.list {
+    list-style: none;
+    }
+/*-------------------- HEADER ------------------------)*/
+
+.header-logo, .footer-logo {
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #000000;
+}
+
+.header-logo:hover, .header-logo:focus,
+.footer-logo:hover , ..footer-logo:focus{
+color: #000000;  
+}
+.header-logo-span, .footer-logo-span {
+color: #2196F3;
+}
+
+.header-nav-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;
+}
+.contact-list-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575;
+}
+
+
+/*------------------------HERO Page 1------------------------*/
+.hero {
+    background-image: url(../images/Bg.jpg);
+}
+
+.hero-title {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.hero-btn {
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background-color: #2196F3;
+}
+
+.hero-btn:hover, .hero-btn:focus {
+
+}
+
+/*------------------------ACTIVITY------------------------*/
+
+.about-title {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+.about-text {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.activity-title, .team-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+
+/*------------------------TEAM------------------------*/
+
+
+.team-names {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.team-position {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+
+/* -----------------------PAGE PORTFOLIO -----------------------*/
+ 
+.portfolio-uptitle {
+}
+.portfolio-list {
+}
+.portfolio-selection {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62x;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.portfolio-images {
+}
+.portfolio-link {
+}
+.portfolio-title {
+}
+.portfolio-text {
+}
+
+/*------------------------FOOTER------------------------*/
+
+/* background-image из футера будет удален, добавлен, что виден был текст*/
+.footer {
+    background-image: url(../images/Bg.jpg);
+}
+.footer-contact {
+}
+.footer-address-list {
+}
+.footer-address-link {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71px;
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+.footer-contact-list, .footer-contact-link {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71x;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+
