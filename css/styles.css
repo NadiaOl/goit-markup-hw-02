@@ -59,6 +59,21 @@ body {
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
+/*-------------------------MAIN------------------------------*/
+
+.about-uptitle,  .portfolio-uptitle{
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: inherit;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  }
+  
 /*------------------------HERO Page 1------------------------*/
 .hero {
   background-image: url(../images/Bg.jpg);
